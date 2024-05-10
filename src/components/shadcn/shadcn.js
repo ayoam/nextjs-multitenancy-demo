@@ -57,7 +57,7 @@ const Shadcn = ()=>{
         },
         {
             key:"Germany",
-            value:"de"
+            value:"fr"
         },
         {
             key:"United states",

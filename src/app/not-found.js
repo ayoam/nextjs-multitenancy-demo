@@ -1,9 +1,9 @@
 import React from 'react'
 
-const NotFound = ()=>{
+const GlobalNotFound = ()=>{
     return(
-        <p>not found custom 404</p>
+        <></>
     )
 }
 
-export default NotFound
+export default GlobalNotFound

@@ -5,7 +5,8 @@ import GetUsersList from "@/src/service/userRequests/getUsersList";
 import {getQueryClient} from "@/src/lib/queryClient";
 import {queryKeys} from "@/src/constants/reactQueryConstants";
 
-const Page = async()=>{
+const Page = async({params})=>{
+
     const queryClient = getQueryClient();
 
     await queryClient.fetchQuery({

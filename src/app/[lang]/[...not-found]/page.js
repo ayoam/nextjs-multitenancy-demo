@@ -1,7 +1,7 @@
 import {notFound} from 'next/navigation';
 
-const CatchAllPage = ()=>{
+const CatchAllNotFoundPage = ()=>{
     notFound();
 }
 
-export default CatchAllPage
+export default CatchAllNotFoundPage

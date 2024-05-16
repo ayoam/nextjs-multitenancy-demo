@@ -7,7 +7,6 @@ import {getTranslations} from "next-intl/server";
 const Page = async ({ params })=> {
     // const t = useTranslations('main'); ==> without async
     const t = await getTranslations('main'); // ==> with async
-
     return (<div>
         <h1>{t('hello')}</h1>
         <Home/>

@@ -3,7 +3,7 @@ import {getTranslations} from "next-intl/server";
 import Home from "@/src/components/home/Home";
 import {useTranslations} from "next-intl";
 
-const Page = ()=>{
+const Page = ({params})=>{
     const t = useTranslations('main');
 
     return (<div>
